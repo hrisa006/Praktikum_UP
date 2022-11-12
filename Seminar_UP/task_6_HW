@@ -42,4 +42,5 @@ int main()
 		}
 		else cout << day << "/" << month << "/" << year << " is invalid date.";
 	}else cout << " The number has more or less than 8-digits. Invalid number :(";
+	return 0;
 }
