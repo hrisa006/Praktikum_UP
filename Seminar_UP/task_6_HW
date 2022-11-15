@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  	//task 6
+  	//task 6 - HW from Week04
 	cout << "Insert an 8-digit number: ";
 	unsigned int date;
 	cin >> date;
