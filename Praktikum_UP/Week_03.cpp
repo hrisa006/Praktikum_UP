@@ -66,9 +66,9 @@ int main()
 	cin >> a;
 	cout << "Enter number2:";
 	cin >> b;
-	if(a>0)
+	if(a > 0)
 	{
-		if(b>0)
+		if(b > 0)
 		{
 			cout<< "Both numbers are positive";
 		}
@@ -104,7 +104,7 @@ int main()
 	cin >> m;	
 	cout << "Enter the number of chocolate bars:";
 	cin >> k;	
-	if(k%n == 0 || k%m == 0)\
+	if(k % n == 0 || k % m == 0)\
 	{
 		cout << "Chocolate can be broken" << endl;
 	}
