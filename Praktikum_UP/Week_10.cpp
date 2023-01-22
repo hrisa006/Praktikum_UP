@@ -59,9 +59,7 @@ char* strCat(char* str1, char* str2)
         {
             *(result + i) = *(str2 + j);
         }
-    }
-
-    result[length - 1] = '\0';
+    } result[length - 1] = '\0';
 
     return result;
 }
