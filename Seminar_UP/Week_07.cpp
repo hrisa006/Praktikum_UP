@@ -121,17 +121,17 @@ int main()
 	int arr[] = {1, 2, 3, 4, 5 };
 	// printReverse(arr, 5);
 	// printArray(arr, 5);
-    // printReverse(arr, 5);
+        // printReverse(arr, 5);
 
-    // int temp[MAX_SIZE];
-    // int n = 5;
-    // inputArray(temp, n);
-    // printArray(temp, n);
+        // int temp[MAX_SIZE];
+        // int n = 5;
+        // inputArray(temp, n);
+        // printArray(temp, n);
 
-    // minMax(arr, 5);
-    int arr2[] = {1, 2, 3, 4, 2, 1};
-    // duplicates(arr2, 7, 3);
-    cout << isMirrored(arr2, 6) << endl;
+        // minMax(arr, 5);
+        int arr2[] = {1, 2, 3, 4, 2, 1};
+        // duplicates(arr2, 7, 3);
+        cout << isMirrored(arr2, 6) << endl;
 	
 	return 0;
 }
