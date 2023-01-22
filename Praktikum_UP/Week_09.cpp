@@ -58,7 +58,8 @@ void findCoords(int** matrix, int numberOfRows, int numberOfCols, int& row, int&
     {
         for (size_t j = 0; j < numberOfCols; j++)
         {
-            if (matrix[i][j] == number) {
+            if (matrix[i][j] == number) 
+            {
                 row = i;
                 col = j;
                 return;
