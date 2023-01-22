@@ -82,7 +82,6 @@ void multiplyMatrices(int matrix1[MAX_ROWS_COLS][MAX_ROWS_COLS], int rows1, int 
     }
 }
 
-
 int main()
 {
     //task 1
@@ -105,7 +104,7 @@ int main()
         cin >> arr[i];
     }
 
-    cout << "========================================\n";
+    cout << "_____________________________________\n";
     cout << equalStart(matrix, arr, rows);
     cout << endl;*/
 
