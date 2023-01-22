@@ -61,39 +61,39 @@ bool isInteresting (int number)
 
 int main() 
 {
-    // int N;
-    // do 
+	// int N;
+    	// do 
 	// {
-    //     cin >> N;
-    // } while (N <= 0 || N > 100);
+    	//     cin >> N;
+    	// } while (N <= 0 || N > 100);
 
-    // unsigned int arr[SIZE] = {};
+    	// unsigned int arr[SIZE] = {};
 
-    // for (int i = 0; i < N; ++i)
-    // {
-    //     cin >> arr[i];
-    // }
+    	// for (int i = 0; i < N; ++i)
+    	// {
+   	 //     cin >> arr[i];
+    	// }
 
-    // for (int i = 0; i < N; ++i)
-    // {
-    //     cout << "The number " << arr[i] << (isInteresting(arr[i]) ? " is" : " is not") << " an interesting number." << endl;
-    // }
+    	// for (int i = 0; i < N; ++i)
+    	// {
+    	//     cout << "The number " << arr[i] << (isInteresting(arr[i]) ? " is" : " is not") << " an interesting number." << endl;
+    	// }
 
-    int matrix[2][3] = {{1, 2, 3}, {4, 5, 6}};
+    	int matrix[2][3] = {{1, 2, 3}, {4, 5, 6}};
 
-    for (int i = 0; i < 2; ++i) 
+    	for (int i = 0; i < 2; ++i) 
 	{
-        for (int j = 0; j < 3; ++j) 
+        	for (int j = 0; j < 3; ++j) 
 		{
-            cout << matrix[i][j] << " ";
-        }
-        cout << endl;
-    }
+            		cout << matrix[i][j] << " ";
+        	}
+        	cout << endl;
+    	}
 
-    printFlip(matrix, 2, 3);
+    	printFlip(matrix, 2, 3);
 
-    int a = 5;
-    int*p = &a;
+    	int a = 5;
+    	int*p = &a;
     
-    return 0;
+    	return 0;
 }
